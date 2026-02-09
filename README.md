@@ -42,3 +42,26 @@ We follow GitFlow workflow. See [CONTRIBUTING.md](docs/CONTRIBUTING.md)
 ## License
 
 MIT License
+
+## Version 1.1.0 Features
+
+### New Pages
+- **User Profile Management** - Kullanici profil bilgileri yonetimi
+- **Order History** - Siparis gecmisi ve takip sistemi
+- **Product Comparison** - Urunleri karsilastirma ozelligi
+
+### New Modules
+- **Favorites Manager** - localStorage tabanli favori urunler yonetimi
+- **Enhanced User Experience** - Gelismis kullanici deneyimi
+
+### Improvements
+- Better navigation structure
+- Responsive design enhancements
+- Modern UI components with Bootstrap 5
+- Font Awesome icons integration
+
+### Technical Details
+- PROJ-203: User profile page implementation
+- PROJ-204: Order history tracking system
+- PROJ-205: Favorites management module
+- PROJ-206: Product comparison feature
