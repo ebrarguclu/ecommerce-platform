@@ -1,0 +1,14 @@
+# JIRA Configuration
+jira:
+  enabled: false  # true yapınca JIRA API aktif olur
+  url: "https://jira.yourcompany.com"
+  username: "your-email@company.com"
+  api_token: "your-jira-api-token"  # JIRA Settings → Security → API Token
+
+# Bitbucket Configuration
+bitbucket:
+  enabled: false  # true yapınca Bitbucket API aktif olur
+  api_url: "https://api.bitbucket.org/2.0/repositories/yourcompany/yourrepo"
+  repo_url: "https://bitbucket.org/yourcompany/yourrepo"
+  username: "your-username"
+  app_password: "your-app-password"  # Bitbucket Settings → App passwords
