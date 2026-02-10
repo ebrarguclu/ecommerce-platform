@@ -65,3 +65,53 @@ MIT License
 - PROJ-204: Order history tracking system
 - PROJ-205: Favorites management module
 - PROJ-206: Product comparison feature
+
+## Version 1.2.0 Features
+
+### New Pages
+- **Shopping Cart** - Sepet yonetimi ve odeme sureci
+- **Wishlist** - Istek listesi ve favori urunler
+
+### New Modules
+- **Cart Manager** - localStorage tabanli sepet yonetim sistemi
+  - Urun ekleme/cikarma
+  - Miktar guncelleme
+  - Otomatik toplam hesaplama
+  - KDV ve kargo hesaplama
+  - Ucretsiz kargo (500 TL uzeri)
+
+### Improvements
+- Enhanced shopping experience
+- Real-time cart updates
+- Stock status indicators
+- Product rating display
+- Responsive cart design
+
+### Technical Details
+- PROJ-208: Shopping cart page implementation
+- PROJ-209: Wishlist page with stock management
+- PROJ-210: Cart manager module with localStorage
+- PROJ-211: Documentation updates for v1.2.0
+
+### Cart Manager API
+```javascript
+// Add product to cart
+cartManager.addItem({
+    id: 1,
+    name: 'iPhone 15 Pro',
+    price: 52999,
+    quantity: 1
+});
+
+// Get cart items
+const cart = cartManager.getCart();
+
+// Update quantity
+cartManager.updateQuantity(1, 2);
+
+// Remove item
+cartManager.removeItem(1);
+
+// Clear cart
+cartManager.clearCart();
+```
