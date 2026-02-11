@@ -1,14 +1,21 @@
-# JIRA Configuration
+# -------------------------------------------------------------------
+# JIRA CONFIGURATION
+# -------------------------------------------------------------------
 jira:
-  enabled: false  # true yapınca JIRA API aktif olur
-  url: "https://jira.yourcompany.com"
-  username: "your-email@company.com"
-  api_token: "your-jira-api-token"  # JIRA Settings → Security → API Token
+  url: "https://senagrun.atlassian.net"
+  
+  # GÜVENLİK NOTU:
+  # Email ve API Token bilgileri güvenlik nedeniyle bu dosyaya YAZILMAMALIDIR.
+  # Bu bilgiler aşağıdaki ortam değişkenleri (Environment Variables) üzerinden okunur:
+  # - JIRA_EMAIL
+  # - JIRA_TOKEN
 
-# Bitbucket Configuration
+# -------------------------------------------------------------------
+# BITBUCKET CONFIGURATION
+# -------------------------------------------------------------------
 bitbucket:
-  enabled: false  # true yapınca Bitbucket API aktif olur
-  api_url: "https://api.bitbucket.org/2.0/repositories/yourcompany/yourrepo"
-  repo_url: "https://bitbucket.org/yourcompany/yourrepo"
-  username: "your-username"
-  app_password: "your-app-password"  # Bitbucket Settings → App passwords
+  workspace: "senagrun-dev"
+  repo_slug: "ecommerce-platform"
+  
+  # NOT: Bitbucket API erişimi için gerekirse BITBUCKET_TOKEN 
+  # ortam değişkeni kullanılabilir.
