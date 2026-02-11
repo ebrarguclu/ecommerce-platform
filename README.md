@@ -33,3 +33,6 @@ python3 changelog_generator.py v1.1.0 v1.2.0 output/CHANGELOG_API.md
 Zenginleştirilmiş changelog:
 - JIRA ticket summary, status, assignee
 - Bitbucket PR title, reviewers, state
+
+---
+**Demo Date:** 2026-02-11
