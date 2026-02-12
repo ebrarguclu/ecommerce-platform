@@ -1,9 +1,10 @@
-﻿:root {
-    --primary-color: #0d6efd;
-    --secondary-color: #6c757d;
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
     --success-color: #198754;
     --danger-color: #dc3545;
-    --dark-color: #212529;
+    --dark-bg: #1a1a1a; /* Yeni eklediğimiz koyu arka plan */
+    --text-light: #f8f9fa;
 }
 
 * {
@@ -13,6 +14,8 @@
 }
 
 body {
+    background-color: var(--dark-bg); /* Değişkeni burada kullandık */
+    color: var(--text-light);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
@@ -23,7 +26,6 @@ body {
     display: flex;
     align-items: center;
 }
-
 .category-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
