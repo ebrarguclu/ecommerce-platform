@@ -2,20 +2,23 @@
 # JIRA CONFIGURATION
 # -------------------------------------------------------------------
 jira:
+  # Replace with your company JIRA URL (exp: https://company.atlassian.net)
   url: "https://senagrun.atlassian.net"
   
-  # GÜVENLİK NOTU:
-  # Email ve API Token bilgileri güvenlik nedeniyle bu dosyaya YAZILMAMALIDIR.
-  # Bu bilgiler aşağıdaki ortam değişkenleri (Environment Variables) üzerinden okunur:
+  # SECURITY NOTE:
+  # Do NOT write your Email or API Token here.
+  # For security, the script reads these from environment variables:
   # - JIRA_EMAIL
   # - JIRA_TOKEN
+  # enable_links: false
 
 # -------------------------------------------------------------------
 # BITBUCKET CONFIGURATION
 # -------------------------------------------------------------------
 bitbucket:
+  #Replace with your Bitbucket Workspace name
   workspace: "senagrun-dev"
+  #Replace with your Bitbucket Repository name (slug)
   repo_slug: "ecommerce-platform"
   
-  # NOT: Bitbucket API erişimi için gerekirse BITBUCKET_TOKEN 
-  # ortam değişkeni kullanılabilir.
+  # NOTE: Use the BITBUCKET_TOKEN environment variable for Bitbucket API access if needed.
